@@ -6,7 +6,7 @@ Cài đặt program addons HORUS thông qua repository Camaradas từ source htt
 1. Đối với Windows và Raspberry Pi:
 Không cần cài trước gì cả, Horus tự tải và cài Acestream.
 2. Đối với Android:
-Cài đặt Ace Stream Media tại địa chỉ http://bom.to/acemanh
+Cài đặt Ace Stream Media tại địa chỉ http://gg.gg/acemanh
 Horus sẽ tự chạy Acestream và gọi trình phát AcePlayer.
 3. Đối với Linux:
 Cần cài Acestream thông qua Snap từ trang https://wiki.acestream.media/Download
