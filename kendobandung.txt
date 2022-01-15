@@ -1,6 +1,6 @@
 name="Giao dien 2"
 version="0.1"
-url="http://thechains24.com/Ghost-Addon/ghostxmls/builds/Franks19.zip"
+url="https://www.fshare.vn/file/GQ3VVHHQX83F"
 minor="http://"
 gui="http://"
 kodi="19.3"
