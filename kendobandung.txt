@@ -1,6 +1,6 @@
-name="Giao dien 2 t"
+name="Giao dien 2 tx"
 version="0.1"
-url="https://www.fshare.vn/file/LE1MRP1O21MR"
+url="https://www.fshare.vn/file/EMN6MACKJRVV"
 minor="http://"
 gui="http://"
 kodi="19.3"
