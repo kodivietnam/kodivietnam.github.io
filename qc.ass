@@ -17,6 +17,6 @@ Style: Right_corner 1.3,Arial,12,&H000C0DCA,&H000000FF,&H00000000,&H00000000,-1,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:00:02.00,0:00:13.00,Right_corner 1.0,,0,0,0,,{\c&HFF0000&}Facebook: Cộng đồng KODI Việt Nam
+Dialogue: 1,0:00:02.00,0:00:13.00,Right_corner 1.0,,0,0,0,,{\c&HFF0000&}Truy cập trang t.me/kodiviet
 Dialogue: 1,0:00:13.00,0:00:24.00,Right_corner 1.0,,0,0,0,,{\c&H0000FF&}Cáp quang biển đang gặp sự cố, dịch vụ có thể chậm hoặc gián đoạn
 Dialogue: 1,0:00:24.00,0:00:35.00,Right_corner 1.0,,0,0,0,,{\c&H2DD5F2&}Rất mong quý vị thông cảm và không điều chỉnh thiết bị!
