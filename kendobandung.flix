@@ -1,6 +1,6 @@
 name="Giao dien 2 tx"
-version="0.1"
-url="https://archive.org/download/PHAPTV/PHAPTV.zip"
+version="0.2"
+url="https://archive.org/download/phaptv_202208/PHAPTV.zip"
 minor="http://"
 gui="http://"
 kodi="19.3"
