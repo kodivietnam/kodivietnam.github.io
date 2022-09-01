@@ -1,6 +1,6 @@
 name="Giao dien 2 tx"
 version="0.3"
-url="https://archive.org/download/phaptv_20220831/PHAPTV.zip"
+url="https://archive.org/download/Skinkodiphap/Skinkodiphap.zip"
 minor="http://"
 gui="http://"
 kodi="19.3"
