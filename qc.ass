@@ -19,5 +19,5 @@ Style: Right_corner 1.3,Arial,12,&H000C0DCA,&H000000FF,&H00000000,&H00000000,-1,
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 1,0:00:02.00,0:00:13.00,Right_corner 1.0,,0,0,0,,{\c&H999801}Ủng hộ quỹ Vì người nghèo Việt Nam
 Dialogue: 1,0:00:13.00,0:00:24.00,Right_corner 1.0,,0,0,0,,{\c&HFF0000&}Ngân hàng Chính sách xã hội VBSP
-Dialogue: 1,0:00:24.00,0:00:35.00,Right_corner 1.0,,0,0,0,,{\c&H0000FF&}CTK: Quỹ Vì người nghèo trung ương
-Dialogue: 1,0:00:35.00,0:00:46.00,Right_corner 1.0,,0,0,0,,{\c&H2DD5F2&}STK: 1 00000 1000 171 717
+Dialogue: 1,0:00:24.00,0:00:35.00,Right_corner 1.0,,0,0,0,,{\c&H0000FF&}STK: 100 000 1000 17 17 17
+Dialogue: 1,0:00:35.00,0:00:46.00,Right_corner 1.0,,0,0,0,,{\c&H2DD5F2&}CTK: Quỹ Vì người nghèo trung ương
