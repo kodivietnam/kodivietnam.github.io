@@ -18,6 +18,6 @@ Style: Right_corner 1.3,Arial,12,&H000C0DCA,&H000000FF,&H00000000,&H00000000,-1,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 1,0:00:02.00,0:00:13.00,Right_corner 1.0,,0,0,0,,{\c&H999801}Ủng hộ CT "Vì người nghèo - không để ai bị bỏ lại phía sau"
-Dialogue: 1,0:00:13.00,0:00:24.00,Right_corner 1.0,,0,0,0,,{\c&HFF0000&}Ngân hàng Vietcombank
-Dialogue: 1,0:00:24.00,0:00:35.00,Right_corner 1.0,,0,0,0,,{\c&H0000FF&}Số tài khoản: V999
-Dialogue: 1,0:00:35.00,0:00:46.00,Right_corner 1.0,,0,0,0,,{\c&H2DD5F2&}Tên TK: Quỹ Vì người nghèo Trung ương
+Dialogue: 1,0:00:13.00,0:00:24.00,Right_corner 1.0,,0,0,0,,{\c&HFF0000&}Bằng cách chuyển khoản tới Quỹ Vì người nghèo Trung ương
+Dialogue: 1,0:00:24.00,0:00:35.00,Right_corner 1.0,,0,0,0,,{\c&H0000FF&}Số tài khoản: V999 tại ngân hàng Vietcombank
+Dialogue: 1,0:00:35.00,0:00:46.00,Right_corner 1.0,,0,0,0,,{\c&H2DD5F2&}Trân trọng cảm ơn nghĩa cử cao đẹp của quý vị
