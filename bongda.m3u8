@@ -1,3 +1,7 @@
 #EXTM3U
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=65000
-http://36.37.252.114:888/Apple/OneTV-114/playlist.m3u8
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:VNMEDIA
+#EXTVLCOPT:http-referer=http://sctvonline.vn
+http://e1.endpoint.cdn.sctvonline.vn/playlist/sctv1/index.m3u8
+http://donglao.duckdns.org/vn360sport/cctv4k.php
+https://e1.endpoint.cdn.sctvonline.vn/playlist/sctvphimtonghop/index.m3u8
