@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-STREAM-INF:VNMEDIA
+#EXT-X-PLAYLIST-TYPE:LIVE
 #EXTVLCOPT:http-referer=http://sctvonline.vn
 http://e1.endpoint.cdn.sctvonline.vn/playlist/sctv1/index.m3u8
 http://donglao.duckdns.org/vn360sport/cctv4k.php
