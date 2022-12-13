@@ -1,5 +1,5 @@
 #EXTM3U
-#EXT-X-VERSION:3
+
 #EXT-X-STREAM-INF:RESOLUTION=15360×8640
 #EXTVLCOPT:http-referer=http://sctvonline.vn
 http://e1.endpoint.cdn.sctvonline.vn/playlist/sctv1/index.m3u8
