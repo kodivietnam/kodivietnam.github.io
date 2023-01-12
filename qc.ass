@@ -17,7 +17,7 @@ Style: Right_corner 1.3,Arial,12,&H000C0DCA,&H000000FF,&H00000000,&H00000000,-1,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:00:02.00,0:00:13.00,Right_corner 1.0,,0,0,0,,{\c&H999801}Lì xì mèo vàng, mèo thần tài 2023
-Dialogue: 1,0:00:13.00,0:00:24.00,Right_corner 1.0,,0,0,0,,{\c&HFF0000&}Mua tại http://hqth.me/lixi2023
-Dialogue: 1,0:00:24.00,0:00:35.00,Right_corner 1.0,,0,0,0,,{\c&H0000FF&}57 Mẫu CHIPI lì xì siêu hot 2023
+Dialogue: 1,0:00:02.00,0:00:13.00,Right_corner 1.0,,0,0,0,,{\c&H999801}Tham gia nhóm chat KODI http://hqth.me/chat
+Dialogue: 1,0:00:13.00,0:00:24.00,Right_corner 1.0,,0,0,0,,{\c&HFF0000&}Tham gia nhóm chat KODI http://hqth.me/chat
+Dialogue: 1,0:00:24.00,0:00:35.00,Right_corner 1.0,,0,0,0,,{\c&H0000FF&}57 mẫu CHIPI lì xì siêu hot 2023
 Dialogue: 1,0:00:35.00,0:00:46.00,Right_corner 1.0,,0,0,0,,{\c&H2DD5F2&}Mua tại http://hqth.me/lixi2023
