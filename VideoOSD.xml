@@ -9,27 +9,29 @@
     <onload condition="Skin.HasSetting(OSDShowInfoOnPause) + !Skin.HasSetting(EnableOSDInfo)">Skin.ToggleSetting(EnableOSDInfo)</onload>
 <controls>
 	<control type="group">	
-      <include condition="Skin.HasTheme(classic)">OSDButtonsClassic</include>
-      <include condition="!Skin.HasTheme(classic)">OSDButtonsModern</include>
-      <include>HideOsdConditions</include>
-	</control>
-	
-	<!-- Code tua chạm thanh trượt cho điện thoại và chuột  -->
-	<control type="group">
-      <bottom>0</bottom>
-      <height>180</height>	
-	  <control type="slider">
-	                <top>50</top>					
-	                <!-- Chỉnh kích thước thanh trượt, tuỳ từng skin mà đưa ra thông số phù hợp  -->
-	                <left>380</left>
-	                <width>60%</width>
-	                <!-- done  -->				
-	                <height>40</height>
-	                <texturesliderbar colordiffuse="00000000"></texturesliderbar>
-	                <textureslidernib colordiffuse="00000000"></textureslidernib>
-	                <textureslidernibfocus colordiffuse="000000"></textureslidernibfocus>
-	                <action>seek</action>
-	  </control>  
+    <include condition="Skin.HasTheme(classic)">OSDButtonsClassic</include>
+    <include condition="!Skin.HasTheme(classic)">OSDButtonsModern</include>
+    <include>HideOsdConditions</include>
+
+    <!-- Code tua chạm thanh trượt cho điện thoại và chuột  -->
+    <control type="group">
+        <bottom>0</bottom>
+        <height>180</height>	
+        <control type="slider">
+            <top>50</top>					
+            <!-- Chỉnh kích thước thanh trượt, tuỳ từng skin mà đưa ra thông số phù hợp  -->
+            <left>380</left>
+            <width>60%</width>
+            <!-- done  -->				
+            <height>40</height>
+            <texturesliderbar colordiffuse="00000000"></texturesliderbar>
+            <textureslidernib colordiffuse="00000000"></textureslidernib>
+            <textureslidernibfocus colordiffuse="000000"></textureslidernibfocus>
+            <action>seek</action>
+        </control>  
+    </control>
+</control>
+
 	</control>
 	<!-- by mkendo  -->	
 	
