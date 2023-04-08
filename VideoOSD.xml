@@ -1,40 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- BINGIE -->
 <window>
-<zorder>2</zorder>
+    <zorder>2</zorder>
     <onload>SetFocus(200)</onload>
     <onload condition="!VideoPlayer.Content(livetv) + ![Skin.String(defaultosdbutton_video,203) + !Player.PauseEnabled] + ![[Skin.String(defaultosdbutton_video,202) | Skin.String(defaultosdbutton_video,203)] + !Player.SeekEnabled]">SetFocus($INFO[Skin.String(defaultosdbutton_video)])</onload>
     <onload condition="VideoPlayer.Content(livetv) + ![Skin.String(defaultosdbutton_livetv,203) + !Player.PauseEnabled] + ![[Skin.String(defaultosdbutton_livetv,202) | Skin.String(defaultosdbutton_livetv,203)] + !Player.SeekEnabled]">SetFocus($INFO[Skin.String(defaultosdbutton_livetv)])</onload>
     <onload condition="Skin.HasSetting(UseBingieOSD) + !VideoPlayer.Content(livetv) + !Player.PauseEnabled">SetFocus(300)</onload>
     <onload condition="!Player.Paused + !VideoPlayer.Content(livetv) + Skin.HasSetting(EnableAutoPauseOnOSD)">Pause</onload>
     <onload condition="Skin.HasSetting(OSDShowInfoOnPause) + !Skin.HasSetting(EnableOSDInfo)">Skin.ToggleSetting(EnableOSDInfo)</onload>
-<controls>
-	<control type="group">	
-    <include condition="Skin.HasTheme(classic)">OSDButtonsClassic</include>
-    <include condition="!Skin.HasTheme(classic)">OSDButtonsModern</include>
-    <include>HideOsdConditions</include>
-
-    <!-- Code tua chạm thanh trượt cho điện thoại và chuột  -->
-    <control type="group">
-        <bottom>0</bottom>
-        <height>180</height>	
-        <control type="slider">
-            <top>50</top>					
-            <!-- Chỉnh kích thước thanh trượt, tuỳ từng skin mà đưa ra thông số phù hợp  -->
-            <left>380</left>
-            <width>60%</width>
-            <!-- done  -->				
-            <height>40</height>
-            <texturesliderbar colordiffuse="00000000"></texturesliderbar>
-            <textureslidernib colordiffuse="00000000"></textureslidernib>
-            <textureslidernibfocus colordiffuse="000000"></textureslidernibfocus>
-            <action>seek</action>
-        </control>  
-    </control>
-</control>
-
+    <controls>
+		
+        <!--OSD Panel-->
+        <control type="group">
+            <include condition="Skin.HasTheme(classic)">OSDButtonsClassic</include>
+            <include condition="!Skin.HasTheme(classic)">OSDButtonsModern</include>
+            <include>HideOsdConditions</include>
+		</control>
+		
+  <!-- Code tua chạm thanh trượt cho điện thoại và chuột  -->
+	<control type="group">
+	  <bottom>0</bottom>
+	  <height>180</height>
+	  <!-- Khi enable Bingie video osd layout  -->
+	  <control type="slider">
+	                <visible>Skin.HasSetting(UseBingieOSD)</visible>
+	                <top>50</top>					
+	                <left>380</left>
+	                <width>60%</width>
+	                <height>40</height>
+	                <texturesliderbar colordiffuse="00000000"></texturesliderbar>
+	                <textureslidernib colordiffuse="00000000"></textureslidernib>
+	                <textureslidernibfocus colordiffuse="000000"></textureslidernibfocus>
+	                <action>seek</action>
+	  </control>
+	  <!-- Khi disable Bingie video osd layout  -->
+	   <control type="slider">
+	                <visible>!Skin.HasSetting(UseBingieOSD)</visible>
+	                <top>30</top>					
+	                <left>395</left>
+	                <width>37%</width>
+	                <height>40</height>
+	                <texturesliderbar colordiffuse="00000000"></texturesliderbar>
+	                <textureslidernib colordiffuse="00000000"></textureslidernib>
+	                <textureslidernibfocus colordiffuse="000000"></textureslidernibfocus>
+	                <action>seek</action>
+	  </control>
 	</control>
-	<!-- by mkendo  -->	
-	
-	
-</controls>
+<!-- by mkendo  -->	
+			
+			
+    </controls>
 </window>
