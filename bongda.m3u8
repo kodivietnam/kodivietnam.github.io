@@ -1,7 +1,9 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-STREAM-INF:RESOLUTION=15360×8640
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-#EXTVLCOPT:http-referer=http://gg.gg
-http://donglao.duckdns.org/vn360sport/cctv4k.php
-https://e1.endpoint.cdn.sctvonline.vn/playlist/sctvphimtonghop/index.m3u8
+#EXT-X-TARGETDURATION:12
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:5.541667
+https://poopm.xyz/f9fe6504a83afb2213ec9d8e9d2d4bdc.html
+#EXTINF:6.041667
+https://1117979683.vnns.net/hda1/vtc3hd_vhls.smil/playlist.m3u8
+#EXT-X-ENDLIST
