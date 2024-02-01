@@ -130,8 +130,9 @@ img[onclick] {
 }
 
 
-.media img{
+.imgmedia {
   width: 100%;
   height: 100%;
+    margin-right: 15px;
   object-fit: contain;
 }
