@@ -63,7 +63,7 @@ main {
 }
 
 .button:hover {
-    background-color: red;
+    background-color: #800000;
 }
 
 .info h3 {
