@@ -56,8 +56,8 @@ main {
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #F40FAD;
-    color: #fff;
+    background-color: orange;
+    color: white;
     text-decoration: none;
     border-radius: 5px;
 }
