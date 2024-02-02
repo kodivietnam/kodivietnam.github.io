@@ -115,8 +115,8 @@ main {
 .download a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #F40FAD;
-    color: #fff;
+    background-color: maroon;
+    color: white;
     text-decoration: none;
     border-radius: 5px;
 }
